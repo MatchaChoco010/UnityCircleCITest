@@ -22,8 +22,8 @@ namespace Tests {
         }
 
         [Test]
-        public void OnePlusOneEqualToThree () {
-            Assert.That (1 + 1, Is.EqualTo (3));
+        public void OnePlusOneEqualToTwo () {
+            Assert.That (1 + 1, Is.EqualTo (2));
         }
     }
 }
