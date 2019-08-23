@@ -4,22 +4,18 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace Tests
-{
-    public class NewEditModeTestScript
-    {
+namespace Tests {
+    public class NewEditModeTestScript {
         // A Test behaves as an ordinary method
         [Test]
-        public void NewEditModeTestScriptSimplePasses()
-        {
+        public void NewEditModeTestScriptSimplePasses () {
             // Use the Assert class to test conditions
         }
 
         // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
         // `yield return null;` to skip a frame.
         [UnityTest]
-        public IEnumerator NewEditModeTestScriptWithEnumeratorPasses()
-        {
+        public IEnumerator NewEditModeTestScriptWithEnumeratorPasses () {
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             yield return null;
